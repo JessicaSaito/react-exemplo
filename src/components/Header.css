@@ -1,0 +1,10 @@
+/* css externo */
+header {
+    background: #000;
+    padding: 20px;
+}
+
+header h2{
+    color: #fff;
+    margin: 0;
+}

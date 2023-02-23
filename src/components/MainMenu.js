@@ -1,8 +1,15 @@
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+
 const MainMenu = () => { 
     return (
-        <nav style={styles.nav}>
+        <Box component="nav" style={styles.nav}>
             <ul style={styles.ulMenu}>menu...</ul>
-        </nav>
+            <Button sx={{
+                background: '00FF00'
+            }} variant="contained">Contained</Button>
+        </Box>
+        
     )
 }
 

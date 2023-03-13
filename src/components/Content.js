@@ -11,23 +11,23 @@ const Content = () => {
             padding: '15px'
         }}>
             <h1>Content</h1>
-            
-                <Alert type="success" >
-                    Deu certo!
-                </Alert>
 
-                <Alert type="error">
-                    Deu Erro!
-                </Alert>
+            <Alert type="success" typeIcon="success">
+                Deu certo!
+            </Alert>
 
-                <Alert type="info">
-                    Info!
-                </Alert>
+            <Alert type="error" typeIcon="error">
+                Deu Erro!
+            </Alert>
 
-                <Alert type="warning">
-                   Warning!
-                </Alert>   
-            
+            <Alert type="info" typeIcon="info">
+                Info!
+            </Alert>
+
+            <Alert type="warning" typeIcon="warning">
+                Warning!
+            </Alert>
+
         </Box>
     )
 }

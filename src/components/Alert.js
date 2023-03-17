@@ -15,10 +15,10 @@ const typeColor = {
 }
 
 const typeIcon = {
-    success: <IconSuccess />,
-    error: <IconError />,
-    info: <IconInfo />,
-    warning: <IconWarning />
+    success: <IconSuccess style={{ color: '#2f7441' }} />,
+    error: <IconError style={{ color: '#bd2626' }} />,
+    info: <IconInfo style={{ color: '#244a70' }} />,
+    warning: <IconWarning style={{ color: '#b7852a' }} />
 }
 
 const Alert = ({ type, children }) => {
@@ -31,11 +31,10 @@ const Alert = ({ type, children }) => {
 
     return (
         <div style={bg}>
-            {children}
+            {typeIcon[type]}
+            <span>{children}</span>
         </div>
     )
 }
-
-
 
 export default Alert

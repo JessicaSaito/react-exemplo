@@ -12,22 +12,25 @@ const Content = () => {
         }}>
             <h1>Content</h1>
 
-            <Alert type="success" typeIcon="success">
+            <Alert type="success">
                 Deu certo!
             </Alert>
+            <br />
 
-            <Alert type="error" typeIcon="error">
+            <Alert type="error">
                 Deu Erro!
             </Alert>
+            <br />
 
-            <Alert type="info" typeIcon="info">
+            <Alert type="info">
                 Info!
             </Alert>
+            <br />
 
-            <Alert type="warning" typeIcon="warning">
+            <Alert type="warning">
                 Warning!
             </Alert>
-
+            <br />
         </Box>
     )
 }

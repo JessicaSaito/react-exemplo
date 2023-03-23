@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import MainMenu from '../components/MainMenu'
 import Sidebar from '../components/Sidebar'
 import Content from '../components/Content'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
         <Sidebar />
         <Content />
       </Box>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

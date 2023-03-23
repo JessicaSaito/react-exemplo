@@ -5,8 +5,6 @@ const Counter = () => {
   const [counter, setCounter] = useState(0)
   const [name, setName] = useState('Fulano')
 
-  console.log('Component log...')
-
   return (
     <div>
         <h2>Counter: {counter}</h2>

@@ -1,8 +1,23 @@
-import Box from '@mui/material/Box'
+{/*import Box from '@mui/material/Box'
 import Alert from './Alert'
+import SampleUseState from './SampleUseState'*/}
 
-const Content = () => {
+const Content = ({ title, children }) => {
 
+    return (
+        <Box sx={{
+            background: "#EEE",
+            width: 500,
+            padding: '15px'
+        }}>
+            <h1>Content</h1>
+            <h1>{title}</h1>
+            {children}
+        </Box>
+    )
+}
+
+{/*const Content = () => {
     return (
         <Box sx={{
             background: "#EEE",
@@ -33,6 +48,6 @@ const Content = () => {
             <br />
         </Box>
     )
-}
+}*/}
 
 export default Content

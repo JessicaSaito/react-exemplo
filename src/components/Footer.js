@@ -1,14 +1,20 @@
-import Box from '@mui/material/Box';
+import Box from '@mui/material/Box'
 
 const Footer = () => {
     return (
-        <Box component="footer" sx={{
-            background: '#F4A460',
-            height: '80px'
-        }}>
-            <h3>Footer</h3>
+        <Box component="footer" sx={styles.footer}>
+            <p>Jessica</p>
         </Box>
     )
+}
+
+const styles = {
+    footer: {
+        background: '#555',
+        color: '#000',
+        padding: '20px',
+        marginTop: '5px'
+    }
 }
 
 export default Footer

@@ -13,7 +13,6 @@ const Sidebar = () => {
         <Box sx={{
             background: '#DDD',
             width: '200px',
-            height: '500px',
             padding: '15px'
         }}>
             <h2>Sidebar</h2>
@@ -57,6 +56,7 @@ const Sidebar = () => {
             }} />
             <IconOutroCarrinho />
             <CarrinhoRoda />
+            <hr />
         </Box>
     )
 }

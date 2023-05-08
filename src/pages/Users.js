@@ -65,7 +65,7 @@ const Users = () => {
           <button onClick={() => setModalOpen(true)}>Cadastrar User</button>
           {users &&
             users.map(user => (
-              <CardUser key={user.id} user={user} />
+              <CardUser key={user.id} user={user} setUsers={setUsers} users={users} />
             ))
           }
         </Content>
